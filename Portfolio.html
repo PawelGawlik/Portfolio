@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Moja przygoda z programowaniem oraz inne pasje">
+        <meta name="author" content="Paweł Gawlik">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+        <link rel="icon" href="mainphoto.jpg">
+        <link rel="stylesheet" href="main.css">
+        <script src="jquery-3.5.1.js"></script>
+        <script src="analyze.js" defer></script>
+        <script src="liczbypierwsze.js" defer></script>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <div class="a">
+            <img src="mainphoto.jpg">
+            <div class="b">
+                <h1>Moje portfolio</h1>
+                <h3>Autor: Paweł Gawlik</h3>
+            </div>
+        </div>
+        <div class="c">
+            <div class="d">
+                 <p class="menu ja">O mnie</p>
+                 <p class="menu mp">Moje projekty</p>
+                 <p class="menu zzp">Zabawy z programami</p>
+                 <p class="menu">Linki</p>
+                 <p class="menu">Różne takie :)</p>
+            </div>
+            <div class="e">
+                 <div class="omnie visible0">
+                     <p class="wstęp">Witam Was, drodzy Przyjaciele.</p>
+                     <p class="wstęp2">22 października 2020 roku zacząłem swoją przygodę z programowaniem. Nigdy wcześniej ten temat mnie nie interesował; zwyczajnie postanowiłem się czymś zająć w dobie pandemii. Znalazłem kursy w internecie, troszkę zainwestowałem i tak minęło kilka miesięcy. Dzisiaj dzielę się z Wami rezultatami swoich starań, zapraszając jednocześnie do kontaktu. Może i Ty chciałbyś zaprezentować swoje projekty? Oczywiście jest GitHub, ale... mam zamiar uczynić z tej strony platformę swobodnej wymiany myśli, by było swojsko i na luzie :) Poza tym, mam różne inne zainteresowania, o których będę pisał: fizyka, wiersze. A Ty, jeśli chcesz, możesz do mnie dołączyć dzieląc się swoimi pasjami i dokonaniami z innymi. Tworzenie stron internetowych, malarstwo, a może origami... jeśli tylko masz jakąś pasję, zapraszam!
+                     </p>
+                 </div>
+                 <div class="mojeprojekty">
+                     <p class="wstęp3">Do tej pory zaprojektowałem trzy proste strony. Pierwszą
+                     jeszcze z wykorzystaniem zmiennej var i bez flexboxa. Pojęcia const, let i flex były wtedy poza zasięgiem mojej wiedzy :) Poniżej linki:
+                     </p>
+                     <a href="Wiersze/Stronazwierszami.html" target="_parent" >Radość pisania</a>
+                     <a href="https://github.com/PawelGawlik/Stronadlapoety">Pliki z kodem na GitHub</a>
+                     <a href="Kurs/kurs.html">Sklep rowerowy</a>
+                     <a href="https://github.com/PawelGawlik/Sklep-rowerowy">Pliki z kodem na GitHub</a>
+                     <p class="wstęp3">I oczywiście strona, na której się znajdujesz:</p>
+                     <a href="">Pliki z kodem na GitHub</a>
+                 </div>
+                 <div class="zabawyzprog">
+                     <p class="wstęp3">Napisałem do tej pory kilka programów, a raczej "programików" :) Wszystkie w JavaScript:</p>
+                     <p class="menu wstęp4 st">Obliczanie kilku wartości statystycznych</p>
+                     <p class="menu wstęp4 lp">Liczby pierwsze</p>
+                 </div>
+                 <div class="liczbypierwsze">
+                     <p class="wstęp3 marg">Program wypisujący liczby pierwsze do określonej wartości:</p>
+                     <p class="menu wstęp4 marg wp2">Włącz program</p>
+                     <a href="liczbypierwsze.js" class="marg">Kod programu</a>
+                 </div>
+                 <div class="programlp">
+                     <p class="wstęp3">Kliknij w pole i wpisz dowolną liczbę. Program wyświetli liczby pierwsze mniejsze lub równe podanej:</p>
+                     <div class="prst">
+                         <div class="ukrycie"></div>
+                         <input class="p1">
+                     </div>
+                     <button>Pokaż</button>
+                     <div class="programlp2"></div>
+                 </div>
+                 <div class="statystyka">
+                     <p class="wstęp3 marg">Krótki program wyliczający, na podstawie podanych liczb, takie wartości jak średnia arytmetyczna czy mediana:</p>
+                     <p class="menu wstęp4 marg wp1">Włącz program</p>
+                     <a href="analyze.js" class="marg">Kod programu</a>
+                 </div>
+                 <div class="programst">
+                     <p class="wstęp3">Kliknij w pole poniżej oraz wpisz dowolną ilość liczb, oddzielając je spacją:</p>
+                     <div class="prst">
+                         <div class="ukrycie"></div>
+                         <input type="text" class="p1">
+                     </div>
+                     <button>Oblicz</button>
+                     <div class="programst2">
+                         <p>Ilość próbek:</p>
+                         <div>-</div>
+                         <p>Suma:</p>
+                         <div>-</div>
+                         <p>Średnia arytmetyczna:</p>
+                         <div>-</div>
+                         <p>Wariancja:</p>
+                         <div>-</div>
+                         <p>Odchylenie standardowe:</p>
+                         <div>-</div>
+                         <p>Mediana:</p>
+                         <div>-</div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <div class="mail">
+            <p class="kontakt">Zapraszam do kontaktu :) Mój mail: mojaulub.6@gmail.com</p>
+            <div class="f">Odwiedziny: 0</div>
+        </div>
+        <button class="wtył"> << </button>
+        <button class="doprzodu"> >> </button>
+    </body>
+</html> 

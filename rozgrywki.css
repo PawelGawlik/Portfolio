@@ -1,0 +1,269 @@
+body{
+    position: relative;
+    height: 67vw;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 20vw;
+    border: 2px solid brown;
+    border-radius: 3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: sandybrown;
+}
+.b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    color: brown;
+    font-family: cursive;
+    font-size: 6vw;
+    letter-spacing: 0.5vw;
+    text-align: center;
+    margin: 0;
+}
+h3{
+    color: brown;
+    font-family: cursive;
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    text-align: center;
+    margin: 0;
+}
+img{
+    border-radius: 3vw;
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 91.5%;
+    height: 40vw;
+    position: absolute;
+    top: 23vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.d{
+    border: 2px solid brown;
+    border-radius: 3vw;
+    width: 30%;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.e{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid brown;
+    border-radius: 3vw;
+}
+.mail{
+    position: absolute;
+    top: 64vw;
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: cursive;
+    font-size: 1.5vw;
+    width: 100%;
+}
+.menu{
+    font-family: cursive;
+    font-size: 2vw;
+    color: brown;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    cursor: default;
+}
+.omnie, .mojeprojekty, .zabawyzprog, .statystyka, .programst, .prst, .liczbypierwsze, .programlp{
+    width: 100%;
+    height: 100%;
+    padding: 2vw;
+    color: brown;
+    font-family: cursive;
+    font-size: 1.5vw;
+    box-sizing: border-box;
+}
+.mojeprojekty, .zabawyzprog, .programst, .programlp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.statystyka, .liczbypierwsze{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.programst2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.wstęp{
+    margin-top: 0;
+}
+.wstęp2{
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 1.7;
+    margin: 0;
+}
+.kontakt{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    cursor: default;
+}
+a:hover{
+    color: crimson;
+}
+.menu:hover{
+    color: crimson;
+}
+.wstęp3{
+    text-align: justify;
+    width: 100%;
+    margin: 0;
+}
+.wstęp4{
+    font-size: 1.5vw;
+}
+.marg{
+    margin-bottom: 20px;
+}
+.p1,.ukrycie{
+    font-family: cursive;
+    font-size: 2.6vw;
+    color: brown;
+    border-color: brown;
+    border-radius: 1.2vw;
+    border-width: 2px;
+    padding: 10px;
+    border-style: solid;
+    cursor: text;
+    position: absolute;
+    width:40vw;
+    height: 4vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    font-family: cursive;
+    font-size: 1.5vw;
+    color: brown;
+    background-color: sandybrown;
+    border: 2px solid brown; 
+    border-radius: 0.5vw;
+}
+.p1{
+    opacity: 0;
+    z-index: 2;
+}
+.programst2>div{
+    width: 50%;
+}
+.programst2>p{
+    width: 50%;
+    margin: 0;
+}
+.prst{
+    position: relative;
+    padding: 0;
+    height: 30%;
+}
+.programlp2{
+    width: 95%;
+    height: 30%;
+    border: 2px solid brown;
+    border-radius: 1.2vw;
+    padding: 1.5vw;
+    position: relative;
+}
+.programlp2>div{
+    min-width: 10%;
+    height: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.programlp .p1, .programlp .ukrycie{
+    width: 20vw;
+    text-align: center;
+}
+.programlp2>button{
+    position: absolute;
+    bottom: -18px;
+    left: 20px;
+}
+.programlp2>button:last-child{
+    left: 60px;
+}
+body>button{
+    position: absolute;
+    bottom: 40px;
+    right: 125px;
+    display: none;
+}
+body>button:last-child{
+    right: 90px;
+}
+.mecze, .mecze2{
+    position: absolute;
+    width: 92%;
+    top: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 47vw;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+.mecz{
+    width: 30%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2vw;
+    color: brown;
+    border-color: brown;
+    border-radius: 1.2vw;
+    border-width: 2px;
+    padding: 3px;
+    border-style: solid;
+    cursor: text;
+    height: 3vw;
+}
+.mecz2{
+    opacity: 0;
+    z-index: 2;
+}
+.mecz3{
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2vw;
+    color: brown;
+    position: absolute;
+    top: 300px;
+}
